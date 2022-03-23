@@ -30,9 +30,13 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         let nvc = segue.destination as! NewController
-        
+        uncleIsGoing = uncleLocationTxt.text ?? ""
         if segue.identifier == "myUncleSegue"
         {
+            
+            nvc.unclePlace = uncleIsGoing ?? ""
+            
+            
             
 //nvc.starName = redStarImgs [randomNumber]
             //nvc.uncleGoingToLbl2.text = "My Uncle wants to go to the \(uncleIsGoing)"

@@ -11,6 +11,10 @@ class NewController: UIViewController {
     
     
     @IBOutlet weak var uncleGoingToLbl2: UILabel!
+    
+    
+    
+    
     var unclePlace: String = ""
     
     
@@ -19,6 +23,8 @@ class NewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        uncleGoingToLbl2.text = "My Uncle wants to go to the " + unclePlace + "."
     }
     
     //uncleIsGoing = uncleLocationTxt.text ?? ""
