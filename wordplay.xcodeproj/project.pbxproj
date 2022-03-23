@@ -14,6 +14,7 @@
 		DB5D6FB827EA5354008CF0E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5D6FB727EA5354008CF0E6 /* Assets.xcassets */; };
 		DB5D6FBB27EA5354008CF0E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5D6FB927EA5354008CF0E6 /* LaunchScreen.storyboard */; };
 		DB5D6FC327EA5475008CF0E6 /* NewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D6FC227EA5475008CF0E6 /* NewController.swift */; };
+		DB5D6FC527EBABAD008CF0E6 /* TwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D6FC427EBABAD008CF0E6 /* TwoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DB5D6FBA27EA5354008CF0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB5D6FBC27EA5354008CF0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB5D6FC227EA5475008CF0E6 /* NewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewController.swift; sourceTree = "<group>"; };
+		DB5D6FC427EBABAD008CF0E6 /* TwoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				DB5D6FB027EA5352008CF0E6 /* SceneDelegate.swift */,
 				DB5D6FB227EA5352008CF0E6 /* ViewController.swift */,
 				DB5D6FC227EA5475008CF0E6 /* NewController.swift */,
+				DB5D6FC427EBABAD008CF0E6 /* TwoController.swift */,
 				DB5D6FB427EA5352008CF0E6 /* Main.storyboard */,
 				DB5D6FB727EA5354008CF0E6 /* Assets.xcassets */,
 				DB5D6FB927EA5354008CF0E6 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				DB5D6FB327EA5352008CF0E6 /* ViewController.swift in Sources */,
 				DB5D6FAF27EA5352008CF0E6 /* AppDelegate.swift in Sources */,
 				DB5D6FB127EA5352008CF0E6 /* SceneDelegate.swift in Sources */,
+				DB5D6FC527EBABAD008CF0E6 /* TwoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
