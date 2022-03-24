@@ -43,8 +43,18 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
 
+        
         let nvc = segue.destination as! NewController
+        
+        let tvc = segue.destination as! TooController
+        
+        adjectiveA = adjTextField.text ?? ""
+        nounA = nounTextField.text ?? ""
+        verbA = verbTextField.text ?? ""
+        
         uncleIsGoing = uncleLocationTxt.text ?? ""
+        
+        
         if segue.identifier == "myUncleSegue"
         {
             
@@ -76,17 +86,17 @@ class ViewController: UIViewController {
  
 //Stretch#1 v/////////////////////////////////////////
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
-    {
+   // override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+  //  {
 
-        let nvc = segue.destination as! TwoController
-        if segue.identifier == "nounAdjVrbSegue"
+  //      let nvc = segue.destination as! TwoController
+ //       if segue.identifier == "nounAdjVrbSegue"
             
-        {
+   //     {
         
-        }
-        
-    }
+     //   }
+//didnt need all this ig 
+   
     
     @IBAction func nounAdjVrbButton(_ sender: Any)
     {
@@ -95,6 +105,7 @@ class ViewController: UIViewController {
    //Stretch#1 ^\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
     
 }
+
     
     
 

@@ -1,13 +1,16 @@
 //
-//  TwoController.swift
+//  TooController.swift
 //  wordplay
 //
-//  Created by Lin LaMonte on 3/23/22.
+//  Created by Lin LaMonte on 3/24/22.
 //
 
 import UIKit
 
-class TwoController: UIViewController {
+class TooController: UIViewController {
+    
+    
+    @IBOutlet weak var nonAdjVrbLabel: UILabel!
     
     var adjectiveB: String = ""
     var nounB: String = ""
@@ -18,8 +21,7 @@ class TwoController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        //"The (noun) (adjective) is (verb)"
+       // nonAdjVrbLabel.text = "The" + adjectiveB + nounB + "is" + verbB + "."
     }
     
 
