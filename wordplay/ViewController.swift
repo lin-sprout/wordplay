@@ -44,21 +44,25 @@ class ViewController: UIViewController {
     {
 
         
-        let nvc = segue.destination as! NewController
+       
         
-        let tvc = segue.destination as! TooController
+       
         
         adjectiveA = adjTextField.text ?? ""
         nounA = nounTextField.text ?? ""
         verbA = verbTextField.text ?? ""
+        
+        //let adjNounA = adjectiveA + nounA
+        //let adjVrbNounA = adjNounA + verbA
+        
         
         uncleIsGoing = uncleLocationTxt.text ?? ""
         
         
         if segue.identifier == "myUncleSegue"
         {
-            
-            nvc.unclePlace = uncleIsGoing ?? ""
+            let nvc = segue.destination as! NewController
+            nvc.unclePlace = uncleIsGoing
             
 //nvc.starName = redStarImgs [randomNumber]
             //nvc.uncleGoingToLbl2.text = "My Uncle wants to go to the \(uncleIsGoing)"
@@ -67,9 +71,15 @@ class ViewController: UIViewController {
     //nvc.uncleGoingToLbl2.text = "My Uncle wants to go to the \(uncleIsGoing)"
     // }
 //let uncleGoingToLbl2.text = "My Uncle wants to go to the \(uncleIsGoing)"
-            
-
-            
+}
+        if segue.identifier == "nunVrbAdjSegue"
+        {
+        
+       // tvc.adjVrbNounB = adjVrbNounA.text
+            let tvc = segue.destination as! TooController
+            tvc.adjectiveB = adjectiveA
+            tvc.nounB = nounA
+            tvc.verbB = verbA 
             
         }
 

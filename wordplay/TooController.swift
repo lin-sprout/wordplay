@@ -17,11 +17,21 @@ class TooController: UIViewController {
     var verbB: String = ""
     
 
+    
+    
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-       // nonAdjVrbLabel.text = "The" + adjectiveB + nounB + "is" + verbB + "."
+    nonAdjVrbLabel.text = "The " + nounB + " " + adjectiveB + " is " + verbB + "."
+        
+       // let adjNoun = adjectiveB + nounB
+      //  let adjVrbNounB = adjNoun + verbB
+        
+    
+        
     }
     
 
